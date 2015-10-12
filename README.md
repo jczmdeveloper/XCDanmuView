@@ -7,6 +7,8 @@
 
 
 使用方法如下（默认方向为从右向左移动，无需设置方向）：
+
+
 mDanmuView = (XCDanmuView)findViewById(R.id.danmu);
 mDanmuView.setDirection(XCDanmuView.XCDirection.FORM_LEFT_TO_RIGHT);
 mDanmuView.initDanmuItemViews(mStrItems);
