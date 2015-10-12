@@ -54,6 +54,7 @@ public class MainActivity extends Activity {
 
     private void initDanmuView() {
         mDanmuView = (XCDanmuView)findViewById(R.id.danmu);
+        mDanmuView.setDirection(XCDanmuView.XCDirection.FORM_LEFT_TO_RIGHT);
         mDanmuView.initDanmuItemViews(mStrItems);
     }
 

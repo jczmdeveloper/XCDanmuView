@@ -217,7 +217,6 @@ public class XCDanmuView extends RelativeLayout {
                 continue;
             }
         }
-
     }
 
 
